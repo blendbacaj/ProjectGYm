@@ -1,0 +1,1350 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Roboto:wght@400;900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: rgb(131, 220, 186);
+    background-image: url(https://preview.colorlib.com/theme/gymlife/img/hero/hero-1.jpg.webp);
+    background-position: top ;
+
+}
+.mob{
+    display: none;
+}
+/* Nav bar design*/
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+header{
+    margin-top: 45px;
+    height: 65px;
+    
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    
+    
+}
+
+header .container .logo{
+    color: white;
+}
+header .container .logo i{
+    padding-left: 10px;
+    color: orangered;
+}
+header .container .logo .char{
+    color: orangered;
+}
+header nav {
+background-color: transparent;
+}
+header nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 25px;  
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s ease-in-out;
+    border-radius: 30px;
+    padding: 2px;
+    transition: 0.5s;
+}
+header nav ul li a:hover{
+    color: #F36100;
+    text-decoration: line-through solid whitesmoke 2px;
+}
+
+/* Nav bar icons design*/
+header .container .social{
+    color: blueviolet;
+    
+    
+}
+header .container .social ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    
+    
+
+}
+header .container .social ul li a{
+    text-decoration: none;
+    color: white;
+    transition: 00.3s;
+    
+}
+header .container .social ul li a:hover{
+    
+    color: #F36100;
+}
+header .container .social ul .border{
+    border-right: 1px solid gray;
+    padding-right: 20px;
+}
+ /*Main page design */
+main {
+    height: calc(100vh - 110px);
+    width: calc(100vw - 110px);
+    display: flex;
+    align-items: center;
+}
+main .container{
+    display: flex;
+    justify-content: flex-end;
+    
+
+
+}
+main .container .content{
+    color: white;    
+    height: 350px;
+    top: 120px;
+    left: 50px;
+    position: relative;
+}
+
+main .container .content h1{
+font-size: 80px;
+font-weight: bold;
+text-shadow: 6px 4px 5px rgba(235, 231, 226, 0.2);
+animation: slide 2s;
+}
+@keyframes slide {
+    from {
+        opacity: 0.1;
+        line-height: 135px;
+    }
+
+    to {
+        opacity: 1;
+        line-height: 100px;
+    }
+    
+}
+main .container .content h3{
+font-size: 20px;
+word-spacing: 4px;
+letter-spacing: 5px;
+margin-bottom: 20px;
+text-shadow: 6px 4px 5px rgba(21,18,14,0.2);
+
+}
+main .container .content span{
+color: orangered;
+}
+main .container .content a{
+color: white;
+text-decoration: none;
+transition: 0.5s;
+}
+
+
+main .container .content .button{
+    background-color: orangered;
+    top: 50px;
+    position: relative;
+    padding: 17px 30px 16px;
+    cursor: pointer;
+    transition: ease-in-out 0.7s ;
+    
+
+}
+main .container .content .button:hover{
+    background-color: white;
+    color: saddlebrown;
+
+}
+/* Section one design*/
+section#one{
+    background-color: #0a0a0a;
+padding-top: 100px;
+padding-bottom: 70px;
+margin-top: 220px;
+min-width:fit-content;
+}
+section#one .container{
+    color: white;
+    height: 374px;
+
+}   
+
+section#one .container .title{
+    text-align: center;
+    transition: 3s;
+}
+section#one .container .title h1{
+    font-size: 32px;
+
+}
+section#one .container .title h3{
+    color: #f36100;
+    margin-bottom: 13px;
+    font-size: 16px;
+}
+section#one .row {
+    display: flex;
+    padding-top: 50px;
+}
+section#one .row .card .items{
+    
+    text-align: center;
+    margin-bottom: 30px;
+    
+    
+}
+section#one .row .card .items span{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    color: orangered;
+    background-color: #212529;
+    text-align: center;
+    line-height: 90px;
+    display: inline-block;
+    font-size: 40px;
+    transition: 0.3s ease-in-out;
+}
+section#one .row .card .items span:hover{
+    background-color: #F36100;
+    color: white;
+    
+}
+
+
+section#one .row .card {
+gap: 50px;
+position: relative;
+width: 100%;
+padding-top: 10px;
+transition: 1s;
+overflow: hidden;
+
+}
+section#one .row .card:hover{
+border-top: solid 6px orangered;
+border-radius: 60px;
+box-shadow: -2px 16px 96px -59px rgba(237,179,153,0.81);
+-webkit-box-shadow: -2px 16px 96px -59px rgba(242, 150, 108, 0.81);
+-moz-box-shadow: -2px 16px 96px -59px rgba(242, 150, 108, 0.81);
+
+}
+
+section#one .row h2{
+    text-align: center ;
+    margin-bottom: 16px;
+}
+section#one p{
+    text-align: center;
+    color: #a9a9a9;
+    font-size: 14px;
+    line-height: 24px;
+}
+/* Section 2 design*/
+section#two {
+    background-color: #212529;
+    min-width: fit-content;
+}
+section#two .container{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+section#two .container .title{
+    position: relative;
+    text-align: center;
+    padding-bottom: 30px;
+    
+}
+section#two .container .title h4{
+    color: #f36100;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+section#two .container .title h1{
+    color: white;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+section#two .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+section#two .row .card{
+    transition: 1s;
+}
+section#two .row .card:hover{
+    box-shadow: -1px 14px 42px 8px rgba(235,153,88,0.58);
+    -webkit-box-shadow: -1px 14px 42px 8px rgba(235,153,88,0.58);
+    -moz-box-shadow: -1px 14px 42px 8px rgba(235,153,88,0.58);
+    
+}
+section#two .row .card:hover .title2 a{
+    box-shadow: 14px 0px 49px 89px rgba(237,236,236,0.65) inset;
+-webkit-box-shadow: 14px 0px 49px 89px rgba(237,236,236,0.65) inset;
+-moz-box-shadow: 14px 0px 49px 89px rgba(237,236,236,0.65) inset;
+color: black;
+}
+section#two .row .card:hover .title2{
+    border-top: solid #F36100 2px;
+    
+}
+
+section#two .row .card .title2 {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+    background-color: #0a0a0a;
+    padding: 20px 35px;
+    top: -3px;
+    position: relative;
+    align-items: center;
+    border-top: 2px solid gray;
+    transition: 2s;
+}
+section#two .row .card .title2 p{
+    color: #f36100;
+    font-size: 12px;
+}
+section#two .row .card .title2 h2{
+    color: white;
+    font-size: 20px;
+}
+section#two .row .card .title2 a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #212529;
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    transition: 2s ease;
+}
+/* Section 3 design*/
+
+section#three{
+    background-image: url(https://preview.colorlib.com/theme/gymlife/img/banner-bg.jpg.webp);
+    height: 550px;
+    min-width: fit-content;
+    
+}
+section#three .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 550px;
+    line-height: 70px;
+    
+}
+section#three .container .mid {
+    text-align: center;
+    
+    
+}
+section#three .container .mid h1{
+    font-size: 45px;
+    color: white;
+}
+section#three .container .mid h3{
+    color: #c4c4c4;
+    font-size: 20px;
+}
+section#three .container .mid a{
+    font-size: 14px;
+    padding: 17px 30px 16px 30px;
+    border: 2px solid #F36100;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+section#three .container .mid a:hover{
+    background-color: #f36100;
+    
+}
+
+section#four{
+    background-color: #151515;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    min-width: fit-content;
+    
+}
+section#four .container{
+    background-color: #151515;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+section#four .container .box{
+    display: grid;
+    grid-template-columns: 1fr 400px 1fr;
+    column-gap: 35px;
+
+}
+
+section#four .container .title{
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+section#four .container .title h3{
+    font-size: 16px;
+    color: #F36100;
+}
+section#four .container .title h1{
+    font-size: 32px;
+    color: white;
+    
+}
+
+
+section#four .container .box .card{
+    background-color: #151515;
+    text-align: center;
+    border: 1px solid #444444;
+    transform: skewY(-4deg);
+    transition: 1s;
+    box-shadow: 1px 8px 120px -17px rgba(0,0,0,0.83);
+-webkit-box-shadow: 1px 8px 120px -17px rgba(0,0,0,0.83);
+-moz-box-shadow: 1px 8px 120px -17px rgba(0,0,0,0.83);
+}
+section#four .container .uno{
+    transform: skewY(4deg);
+    
+}
+section#four .container .box .card:hover{
+    background-color: white;
+    box-shadow: 1px 8px 120px -2px rgba(194,77,26,0.87);
+-webkit-box-shadow: 1px 8px 120px -2px rgba(194,77,26,0.87);
+-moz-box-shadow: 1px 8px 120px -2px rgba(194,77,26,0.87);
+}
+
+section#four .container .box .card h2{
+    font-size: 28px;
+    line-height: 90px;
+    color: white;
+    transition: 0.5s; 
+}
+section#four .container .box .card:hover h2{
+    color: #0a0a0a;
+}
+section#four .container .box .card h1{
+    font-size: 60px;
+    color: #F36100;
+    font-weight: bold;
+    
+}
+section#four .container .box .card h4{
+    font-size: 16px;
+    color: #444444;
+    padding-bottom: 25px;
+    
+}
+section#four .container .box .card p{
+    font-size: 14px;
+    color: #444444;
+    line-height: 30px;
+}
+section#four .container .box .card a{
+    color: white;
+    background-color: #444444;
+    text-decoration: none;
+    line-height: 110px;
+    padding: 15px 100px 15px 100px;
+    font-size: 14px;
+    word-spacing: 3px;
+    transition: 0.5 ease-in-out;
+}
+section#four .container .box .card:hover a{
+    background-color: #F36100;
+}
+section#four .container .box .card a:hover{
+    background-color: #9a450c;
+}
+
+section#five{
+    background-color: #151515;
+    min-width: 1200px;
+    
+
+    
+}
+section#five .container1{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 7px;
+
+}
+section#five .container1 img{
+    width: 100%;
+}
+section#five .container1 :nth-child(1){
+    grid-column: 1/3;
+
+}
+section#five .container1 :nth-child(6){
+    grid-row: 2/3;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+section#six{
+    background-color: #151515;
+    min-width: fit-content;
+}
+section#six .container{
+padding-top: 70px;
+padding-bottom: 70px;
+
+
+}
+section#six .container .title{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    align-items: center;
+}
+section#six .container .title h3{
+    font-size: 15px;
+    color: #F36100;
+}
+section#six .container .title h1{
+    font-size: 25px;
+    color: white;
+}
+section#six .container .title a{
+    text-decoration: none;
+    color: white;
+    background-color: #151515;
+    padding: 15px 40px 15px 40px;
+    border: solid #F36100 2px;
+    transition: 0.5s;
+}
+section#six .container .title a:hover{
+    background-color: #F36100;
+    
+}
+
+section#six .container .box{
+    display: flex;
+
+    gap: 20px;
+}
+section#six .container .box .cards{
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+}
+section#six .container .box .cards img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+section#six .container .box .cards .text{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding: 15px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(52, 49, 46, 0.462);
+    color: #222;
+    opacity: 0;
+    transition: opacity 1.30s;
+    box-shadow: 0px -85px 71px -27px rgba(240, 118, 61, 0.64) inset;
+-webkit-box-shadow: 0px -85px 71px -27px rgba(240, 118, 61, 0.549) inset;
+-moz-box-shadow: 0px -85px 71px -27px rgba(240, 118, 61, 0.53) inset;
+}
+
+section#six .container .box .cards .text:hover{
+    opacity: 1;
+    border-bottom: solid orangered 4px;
+   
+}
+section#six .container .box .cards .text h1{
+    font-size: 35px;
+    color: white;
+}
+section#six .container .box .cards .text h4{
+    font-size: 14px;
+    color: #a9a9a9;
+}
+section#seven{
+    background-color: #0f0f0f;
+    min-width: fit-content;
+}
+section#seven .container{
+    display: flex;
+    justify-content: space-between;
+}
+section#seven .container .card{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding-top: 35px;
+    padding-bottom: 45px;
+
+}
+section#seven .container .card span{
+    display: inline-block;
+    background-color: #F36100;
+    color: white;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 20px;
+}
+section#seven .container .card p{
+    color: white;
+}
+section#seven .container :nth-child(2) .bor{
+    border-right: 1px solid rgb(117, 114, 114);
+    padding-right: 15px;
+}
+footer{
+    background-color: #0a0a0a;
+    min-width: fit-content;
+}
+footer .container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    color: #c4c4c4;
+    padding-top: 20px;
+    border-bottom: #4d4d4d solid 2px;
+}
+footer .container ul{
+    list-style-type: none;
+    list-style-position: inside;
+
+    
+}
+footer .container ul a{
+    color: #c4c4c4;
+    text-decoration: none;
+    line-height: 30px;
+}
+footer .container ul li{
+    font-size: 13px;
+    
+}
+footer .container a{
+    color: #c4c4c4;
+}
+footer .container .letter{
+    color: #f36100;
+}
+footer .container .first{
+margin-right: 40px;
+
+}
+footer .container .first .icons i{
+    padding-right: 10px;
+    
+    }
+footer .container .first p{
+    font-size: 14px;
+    line-height: 30px;
+}
+footer .container .last{
+    list-style: 25px;
+}
+footer .container .last .border{
+    padding-bottom: 20px;
+    border-bottom: #4d4d4d solid 1px;
+    line-height: 25px;
+    
+}
+footer .container .last .border1{
+    padding-top: 20px;
+}
+footer .container .last .border .min span{
+    border-left: 1px solid #4d4d4d;
+    padding-left: 7px;
+}
+footer .container .last .border .min {
+    font-size: 12px;
+}
+footer .container .last .border1{
+    padding-bottom: 20px;
+    border-bottom: #4d4d4d solid 1px;
+    line-height: 25px;
+    
+}
+footer .container .last .border1 .min span{
+    border-left: 1px solid #4d4d4d;
+    padding-left: 7px;
+}
+footer .container .last .border1 .min {
+    font-size: 12px;
+}
+nav{
+    background-color: #0a0a0a;
+    min-width: fit-content;
+}
+.container .copy{
+    color: #444444;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@media (max-width: 400px) {
+    body{
+        background-color: rgb(131, 220, 186);
+        background-image: url(https://preview.colorlib.com/theme/gymlife/img/hero/hero-1.jpg.webp);
+        background-position: top ; 
+        
+    }
+    .mob{
+        display: block;
+        color: white;
+        font-size: larger;
+    }
+    /* Nav bar design*/
+    .container{
+        width: 90%;
+        margin: 0 auto;
+        padding-left: 15px;
+        padding-right: 15px;       
+    }
+    header{
+        margin-top: 45px;
+        height: 65px;
+        
+        
+    }
+    
+    header .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 65px;
+    }
+    header .container .logo{
+        color: white;
+    }
+
+    
+    header .container .logo i{
+        padding-left: 10px;
+        color: orangered;
+    }
+    header .container .logo .char{
+        color: orangered;
+    }
+    header nav {
+    background-color: transparent;
+    display: none;
+    }
+    header nav ul{
+        list-style-type: none;
+        display: flex;
+        gap: 25px;  
+        
+    }
+    header nav ul li a{
+        text-decoration: none;
+        color: white;
+        transition: 0.3s ease-in-out;
+        border-radius: 30px;
+        padding: 2px;
+    }
+    header nav ul li a:hover{
+        color: #F36100;
+    }
+    
+    /* Nav bar icons design*/
+    header .container .social{
+        color: blueviolet;
+        display: none;
+    }
+    header .container .social ul{
+        display: flex;
+        list-style: none;
+        gap: 15px;
+        
+        
+    
+    }
+    header .container .social ul li a{
+        text-decoration: none;
+        color: white;
+        transition: 00.3s;
+        
+    }
+    header .container .social ul li a:hover{  
+        color: #F36100;
+    }
+    header .container .social ul .border{
+        border-right: 1px solid gray;
+        padding-right: 20px;
+    }
+     /*Main page design */
+    main {
+        display: flex;
+        align-items: center;
+    }
+    main .container{
+        display: flex;
+        justify-content: flex-start;
+        
+    
+    
+    }
+    main .container .content{
+        color: white;    
+        height: 350px;
+        top: 100px;
+        left: 50px;
+        position: relative;
+    }
+    main .container .content h1{
+    font-size: 40px;
+    font-weight: bold;
+    }
+    main .container .content h3{
+    font-size: 20px;
+    word-spacing: 4px;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+    
+    }
+    main .container .content span{
+    color: orangered;
+    }
+    main .container .content a{
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+    }
+    
+    
+    main .container .content .button{
+        background-color: orangered;
+        top: 40px;
+        position: relative;
+        padding: 17px 30px 16px;
+        cursor: pointer;
+        transition: ease-in-out 0.7s ;
+        
+    
+    }
+    main .container .content .button:hover{
+        background-color: white;
+        color: saddlebrown;
+    
+    }
+    /* Section one design*/
+    section#one{
+    background-color: #0a0a0a;
+    padding-top: 100px;
+    padding-bottom: 70px;
+    margin-top: 280px;
+    min-width:fit-content;
+    }
+    section#one .container{
+        color: white;
+        height: 100%;
+    
+    }   
+    section#one .container .title{
+        text-align: center;
+    }
+    section#one .container .title h1{
+        font-size: 32px;
+    
+    }
+    section#one .container .title h3{
+        color: #f36100;
+        margin-bottom: 13px;
+        font-size: 16px;
+    }
+    section#one .row {
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        
+        
+    }
+    section#one .row .card .items{
+        
+        text-align: center;
+        margin-bottom: 30px;
+        
+        
+        
+    }
+    
+    section#one .row .card .items span{
+        height: 90px;
+        width: 90px;
+        border-radius: 50%;
+        color: orangered;
+        background-color: #212529;
+        text-align: center;
+        line-height: 90px;
+        display: inline-block;
+        font-size: 40px;
+        transition: 0.3s ease-in-out;
+    }
+    section#one .row .card .items span:hover{
+        background-color: #F36100;
+        color: white;
+        
+    }
+    
+    
+    section#one .row .card {
+    gap: 40px;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    }
+    section#one .row h2{
+        text-align: center ;
+        margin-bottom: 16px;
+    }
+    section#one p{
+        text-align: center;
+        color: #a9a9a9;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    /* Section 2 design*/
+    section#two {
+        background-color: #212529;
+        min-width: fit-content;
+    }
+    section#two .container{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        
+    }
+    section#two .container .title{
+        text-align: center;
+        padding-bottom: 30px;
+        
+        
+        
+    }
+    section#two .container .title h4{
+        color: #f36100;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
+    section#two .container .title h1{
+        color: white;
+        font-size: 32px;
+        line-height: 38px;
+    }
+    
+    section#two .row{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 25px;
+        
+    }
+    
+    
+    section#two .row .card .title2 {
+        display: flex;
+        flex-direction: row;
+        background-color: #0a0a0a;
+        padding: 20px 35px;
+        top: -4px;
+        position: relative;
+        align-items: center;
+        
+        
+        
+    }
+    section#two .row .card .title2 p{
+        color: #f36100;
+        font-size: 12px;
+    }
+    section#two .row .card .title2 h2{
+        color: white;
+        font-size: 20px;
+    }
+    section#two .row .card img{
+        height: 205px;
+    }
+    section#two .row .card .title2 a{
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        background-color: #212529;
+        color: white;
+        line-height: 40px;
+        text-align: center;
+    }
+    /* Section 3 design*/
+    
+    section#three{
+        background-image: url(https://preview.colorlib.com/theme/gymlife/img/banner-bg.jpg.webp);
+        height: 90%;
+        min-width: fit-content;
+        
+    }
+    section#three .container {
+        display: flex;
+        flex-direction: row;
+        height: 90%;
+        line-height: 70px;
+        
+    }
+    section#three .container .mid {
+        text-align: center;
+        
+        
+    }
+    section#three .container .mid h1{
+        font-size: 35px;
+        color: white;
+    }
+    section#three .container .mid h3{
+        color: #c4c4c4;
+        font-size: 15px;
+    }
+    section#three .container .mid a{
+        font-size: 14px;
+        padding: 17px 30px 16px 30px;
+        border: 2px solid #F36100;
+        margin-top: 20px;
+        text-decoration: none;
+        color: white;
+        transition: 0.5s;
+    }
+    section#three .container .mid a:hover{
+        background-color: #f36100;
+        
+    }
+    
+    section#four{
+        background-color: #151515;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        
+        
+    }
+    section#four .container{
+        background-color: #151515;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        
+    
+    }
+    section#four .container .box{
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 35px;
+        
+    
+    }
+    section#four .container .title{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    section#four .container .title h3{
+        font-size: 16px;
+        color: #F36100;
+    }
+    section#four .container .title h1{
+        font-size: 32px;
+        color: white;
+        
+    }
+    
+    
+    section#four .container .box .card{
+        background-color: #151515;
+        text-align: center;
+        border: 1px solid #444444;
+        transform: skewY(-4deg);
+        transition: 0.5s;
+    }
+    section#four .container .box .card:hover{
+        background-color: white;
+    }
+    
+    section#four .container .box .card h2{
+        font-size: 28px;
+        line-height: 90px;
+        color: white;
+        transition: 0.5s; 
+    }
+    section#four .container .box .card:hover h2{
+        color: #0a0a0a;
+    }
+    section#four .container .box .card h1{
+        font-size: 60px;
+        color: #F36100;
+        font-weight: bold;
+        
+    }
+    section#four .container .box .card h4{
+        font-size: 16px;
+        color: #444444;
+        padding-bottom: 25px;
+        
+    }
+    section#four .container .box .card p{
+        font-size: 14px;
+        color: #444444;
+        line-height: 30px;
+    }
+    section#four .container .box .card a{
+        color: white;
+        background-color: #444444;
+        text-decoration: none;
+        line-height: 110px;
+        padding: 15px 20px 15px 20px;
+        font-size: 14px;
+        word-spacing: 3px;
+        transition: 0.5 ease-in-out;
+    }
+    section#four .container .box .card:hover a{
+        background-color: #F36100;
+    }
+    section#four .container .box .card a:hover{
+        background-color: #9a450c;
+    }
+    section#four .container .uno{
+        transform: skewY(4deg);
+        
+    }
+    section#five{
+        background-color: #151515;
+        display: none;
+        
+
+    }
+    section#five .container1{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+        width: 90%;
+        
+    }
+    section#six{
+        background-color: #151515;
+        min-width: fit-content;
+    }
+    section#six .container{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    }
+    section#six .container .title{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 30px;
+        align-items: center;
+    }
+    section#six .container .title h3{
+        font-size: 15px;
+        color: #F36100;
+    }
+    section#six .container .title h1{
+        font-size: 25px;
+        color: white;
+    }
+    section#six .container .title a{
+        text-decoration: none;
+        color: white;
+        background-color: #151515;
+        padding: 15px 20px 15px 20px;
+        border: solid #F36100 2px;
+        transition: 0.5s;
+    }
+    section#six .container .title a:hover{
+        background-color: #F36100;
+        
+    }
+    
+    section#six .container .box{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    section#six .container .box .cards{
+        width: 100%;
+        position: relative;
+    }
+    section#six .container .box .cards img{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    section#six .container .box .cards .text{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        padding: 15px;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: rgba(130, 109, 85, 0.8);
+        color: #222;
+        opacity: 0;
+        transition: opacity 0.30s;
+    }
+    section#six .container .box .cards .text:hover{
+        opacity: 1;
+    }
+    section#six .container .box .cards .text h1{
+        font-size: 25px;
+        color: white;
+    }
+    section#six .container .box .cards .text h4{
+        font-size: 14px;
+        color: #a9a9a9;
+    }
+    section#seven{
+        background-color: #0f0f0f;
+        min-width: fit-content;
+    }
+    section#seven .container{
+        display: flex;
+        flex-direction: column;
+    }
+    section#seven .container .card{
+        display: flex;
+        align-items: center;
+        padding-top: 15px;
+        padding-bottom: 25px;
+    }
+    section#seven .container .card span{
+        display: inline-block;
+        background-color: #F36100;
+        color: white;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        border-radius: 50%;
+        font-size: 15px;
+    }   
+    section#seven .container .card p{
+        color: white;
+    }
+    section#seven .container :nth-child(2) .bor{
+        border-right: 1px solid rgb(117, 114, 114);
+        padding-right: 15px;
+    }
+    footer{
+        background-color: #0a0a0a;
+        min-width: fit-content;
+    }
+    footer .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        color: #c4c4c4;
+        padding-top: 20px;
+        border-bottom: #4d4d4d solid 2px;
+    }
+    footer .container ul{
+        list-style-type: none;
+        list-style-position: inside;
+    
+        
+    }
+    footer .container ul a{
+        color: #c4c4c4;
+        text-decoration: none;
+        line-height: 30px;
+    }
+    footer .container ul li{
+        font-size: 13px;
+        
+    }
+    footer .container a{
+        color: #c4c4c4;
+    }
+    footer .container .letter{
+        color: #f36100;
+        
+    }
+    footer .container .first{
+    margin-right: 40px;
+    
+    
+    }
+    footer .container .first .icons i{
+        padding-right: 10px;
+        
+        }
+    footer .container .first p{
+        font-size: 14px;
+        line-height: 30px;
+    }
+    footer .container .last{
+        list-style: 25px;
+    }
+    footer .container .last .border{
+        padding-bottom: 20px;
+        border-bottom: #4d4d4d solid 1px;
+        line-height: 25px;
+        
+    }
+    footer .container .last .border1{
+        padding-top: 20px;
+    }
+    footer .container .last .border .min span{
+        border-left: 1px solid #4d4d4d;
+        padding-left: 7px;
+    }
+    footer .container .last .border .min {
+        font-size: 12px;
+    }
+    footer .container .last .border1{
+        padding-bottom: 20px;
+        border-bottom: #4d4d4d solid 1px;
+        line-height: 25px;
+        
+    }
+    footer .container .last .border1 .min span{
+        border-left: 1px solid #4d4d4d;
+        padding-left: 7px;
+    }
+    footer .container .last .border1 .min {
+        font-size: 12px;
+    }
+    nav{
+        background-color: #0a0a0a;
+        min-width: fit-content;
+    }
+    .container .copy{
+        color: #444444;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 90%;
+    }
+
+}
